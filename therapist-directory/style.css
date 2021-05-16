@@ -1,0 +1,50 @@
+body {
+  font-family: 'Jaldi', Arial, Helvetica, sans-serif;
+  color: #116f62;
+}
+nav {
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav > img {
+  width: 250px;
+}
+
+header > h1 {
+  text-align: center;
+  margin: 0;
+}
+
+header > p {
+  max-width: 90%;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+header > p {
+  margin-top: 15px;
+}
+.bold {
+  font-weight: bold;
+}
+
+div#app {
+    text-align: center;
+    padding: 25px 0;
+}
+
+div#app > img {
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+}
+
+select#states {
+    display: none;
+    width: 100px;
+    margin: 0 auto;
+}

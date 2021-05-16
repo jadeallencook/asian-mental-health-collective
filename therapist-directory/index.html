@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APISAA Therapist Directory | Asian Mental Health Collective</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/therapist-directory/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="../assets/amhc-logo.png" alt="" />
+    </nav>
+    <header>
+      <h1>APISAA Therapist Directory</h1>
+      <p>
+        Welcome to the Asian, Pacific Islander, and South Asian American
+        (APISAA) Therapist Directory. It is our hope that this resource would
+        help to facilitate your search for a therapist.
+      </p>
+      <p class="bold">
+        If you are a provider and would like to be added to this directory
+        please complete this form or contact us at contact@asianmhc.org.
+      </p>
+      <div id="app">
+        <img src="../assets/loading.gif" id="loading" alt="loading icon" />
+        <div id="filters">
+          <select name="state" id="states"></select>
+        </div>
+        <div id="entries"></div>
+      </div>
+      <footer>
+        AMHC is a non-profit organization pursuant to Section 501(c)(3) of the
+        United States Internal Revenue Code.
+      </footer>
+    </header>
+    <script src="/therapist-directory/tabletop.min.js"></script>
+    <script src="/therapist-directory/app.js"></script>
+  </body>
+</html>
